@@ -4,6 +4,9 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/87ff9a8fa7337650aafe/maintainability)](https://codeclimate.com/github/AnastasiyaBobko/python-project-49/maintainability)
 
-https://asciinema.org/a/582521
+brain-even game
+[![asciicast](https://asciinema.org/a/582521.png)](https://asciinema.org/a/582521)
 
+brain-calc game
+[![asciicast](https://asciinema.org/a/582790.png)](https://asciinema.org/a/582790)
 
