@@ -12,7 +12,7 @@ def calc_game():
         char = random.choice('+-*')
         num1 = random.randrange(1, 20)
         num2 = random.randrange(1, 20)
-        resul = ''
+        result = ''
         if char == '+':
             result = num1 + num2
         elif char == '-':
@@ -21,7 +21,7 @@ def calc_game():
             result = num1*num2
         print(f"""What is the result of the expression?\n
         Question: {num1} {char} {num2}""")
-        answer = prompt.string('Your answer: ')
+        answer = prompt.integer('Your answer: ')
         
         if int(answer) == int(result):
             print("Correct!")
@@ -31,7 +31,3 @@ def calc_game():
         else:
             print(f"""'{answer}' is wrong answer ;(. Correct answer is {result} \n
             Let's try again, {brain_games.cli.user_name}!""")
-
-
-
-

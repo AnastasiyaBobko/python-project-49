@@ -12,3 +12,6 @@ brain-calc game
 
 brain-gcd game
 [![asciicast](https://asciinema.org/a/583103.png)](https://asciinema.org/a/583103)
+
+brain-progression game
+[![asciicast](https://asciinema.org/a/583190.png)]  (https://asciinema.org/a/583190)

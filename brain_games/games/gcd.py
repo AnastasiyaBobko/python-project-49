@@ -16,7 +16,7 @@ def gcd_game():
 
         print(f"""Find the greatest common divisor of given numbers.\n
         Question: {num1} {num2}""")
-        answer = prompt.string('Your answer: ')
+        answer = prompt.integer('Your answer: ')
         
         if int(answer) == int(result):
             print("Correct!")
