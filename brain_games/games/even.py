@@ -4,8 +4,8 @@ import brain_games.cli
 
 
 def even_game():
-    print('Welcome to the Brain Games!')
-    print(f'Hello, {brain_games.cli.welcome_user()}!')
+    # print('Welcome to the Brain Games!')
+    # print(f'Hello, {brain_games.cli.welcome_user()}!')
     count = 0
 
     while count < 3:
@@ -21,3 +21,4 @@ def even_game():
         else:
             print(f"""'{answer}' is wrong answer ;(. \n
             Let's try again, {brain_games.cli.user_name}!""")
+even_game()
