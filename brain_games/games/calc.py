@@ -22,12 +22,13 @@ def calc_game():
         print(f"""What is the result of the expression?\n
         Question: {num1} {char} {num2}""")
         answer = prompt.integer('Your answer: ')
-        
+
         if int(answer) == int(result):
             print("Correct!")
             count += 1
             if count == 3:
                 print(f'Congratulations, {brain_games.cli.user_name}!')
         else:
-            print(f"""'{answer}' is wrong answer ;(. Correct answer is {result} \n
+            print(f"""'{answer}' is wrong answer ;(.
+            Correct answer is {result} \n
             Let's try again, {brain_games.cli.user_name}!""")

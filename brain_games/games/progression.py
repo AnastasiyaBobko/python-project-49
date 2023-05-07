@@ -3,7 +3,6 @@ import prompt
 import brain_games.cli
 
 
-
 def progression_game():
     print('Welcome to the Brain Games!')
     print(f'Hello, {brain_games.cli.welcome_user()}!')
@@ -21,17 +20,13 @@ def progression_game():
         print(f"""What number is missing in the progression?\n
         Question: {' '.join(map(str, list_numbers))}""")
         answer = prompt.integer('Your answer: ')
-        
+
         if int(answer) == int(number):
             print("Correct!")
             count += 1
             if count == 3:
                 print(f'Congratulations, {brain_games.cli.user_name}!')
         else:
-            print(f"""'{answer}' is wrong answer ;(. Correct answer was {number} \n
+            print(f"""'{answer}' is wrong answer ;(.
+            Correct answer was {number} \n
             Let's try again, {brain_games.cli.user_name}!""")
-
-
-progression_game()
-
-

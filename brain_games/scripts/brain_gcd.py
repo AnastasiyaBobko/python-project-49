@@ -3,7 +3,7 @@ from ..games.gcd import gcd_game
 
 
 def main():
-   gcd_game()
+    gcd_game()
 
 
 if __name__ == '__main__':
