@@ -20,6 +20,7 @@ def even_game():
                 print(f'Congratulations, {brain_games.cli.user_name}!')
         else:
             print(f"""Let's try again, {brain_games.cli.user_name}!""")
+            break
 
-
+# even_game()
 # '{answer}' is wrong answer ;(. \n
