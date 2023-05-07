@@ -10,8 +10,8 @@ def even_game():
 
     while count < 3:
         number = random.randrange(1, 100)
-        print(f"""Answer 'yes' if the number is even,
-        otherwise answer 'no'.\n Question: {number}""")
+        print(f"""Answer "yes" if the number is even,
+        otherwise answer "no".\n Question: {number}""")
         answer = prompt.string('Your answer: ')
         if (number % 2 == 0 and answer == 'yes') or (number % 2 != 0 and answer == 'no'):
             print("Correct!")
