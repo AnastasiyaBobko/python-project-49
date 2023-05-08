@@ -11,7 +11,7 @@ def progression_game():
     while count < 3:
         start_num = random.randrange(1, 10)
         step_num = random.randrange(1, 5)
-        stop_num = random.randrange(20, 60)
+        stop_num = random.randrange(25, 60)
         list_numbers = list(range(start_num, stop_num, step_num))
         index_num = random.randrange(len(list_numbers))
         number = list_numbers[index_num]
