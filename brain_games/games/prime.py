@@ -21,6 +21,10 @@ def prime_game():
         Otherwise answer "no".\n
         Question: {num}""")
         answer = prompt.string('Your answer: ')
+        if IsPrime(num) is True:
+            result = 'yes'
+        else:
+                result = 'no'
 
         if (IsPrime(num) is True and answer == 'yes') or (IsPrime(num) is False and answer == 'no'):
             print("Correct!")
@@ -28,7 +32,9 @@ def prime_game():
             if count == 3:
                 print(f'Congratulations, {brain_games.cli.user_name}!')
         else:
-            print(f"""'{answer}' is wrong answer ;(. \n
+            print(f"""'{answer}' is wrong answer ;(.
+            Correct answer was {result} \n
             Let's try again, {brain_games.cli.user_name}!""")
-            # count = 0
-            # break
+            count = 0
+            break
+# prime_game()
