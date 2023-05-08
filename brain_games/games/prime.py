@@ -17,14 +17,14 @@ def prime_game():
                 d += 1
             return d * d > num
 
-        print(f"""Answer "yes" if given number is prime.
-        Otherwise answer "no".\n
+        print(f"""Answer "yes" if given number is prime. Otherwise answer "no".\n
         Question: {num}""")
         answer = prompt.string('Your answer: ')
+        result = ''
         if IsPrime(num) is True:
             result = 'yes'
         else:
-                result = 'no'
+            result = 'no'
 
         if (IsPrime(num) is True and answer == 'yes') or (IsPrime(num) is False and answer == 'no'):
             print("Correct!")
