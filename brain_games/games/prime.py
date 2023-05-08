@@ -7,7 +7,7 @@ def IsPrime(num):
     d = 2
     while d * d <= num and num % d != 0:
         d += 1
-        return d * d > num
+    return d * d > num
 
 
 def prime_game():
@@ -33,7 +33,6 @@ def prime_game():
             print(f"""'{answer}' is wrong answer ;(.
             Correct answer was {result} \n
             Let's try again, {brain_games.cli.user_name}!""")
-            count = 0
             break
         count += 1
     if count == 3:
