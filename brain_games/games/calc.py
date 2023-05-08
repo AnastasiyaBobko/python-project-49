@@ -32,3 +32,5 @@ def calc_game():
             print(f"""'{answer}' is wrong answer ;(.
             Correct answer is {result} \n
             Let's try again, {brain_games.cli.user_name}!""")
+            count = 0
+            break

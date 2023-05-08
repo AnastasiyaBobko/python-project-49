@@ -30,3 +30,5 @@ def prime_game():
         else:
             print(f"""'{answer}' is wrong answer ;(. \n
             Let's try again, {brain_games.cli.user_name}!""")
+            count = 0
+            break

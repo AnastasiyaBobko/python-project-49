@@ -30,3 +30,5 @@ def progression_game():
             print(f"""'{answer}' is wrong answer ;(.
             Correct answer was {number} \n
             Let's try again, {brain_games.cli.user_name}!""")
+            count = 0
+            break
