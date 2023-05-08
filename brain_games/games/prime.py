@@ -37,4 +37,3 @@ def prime_game():
             Let's try again, {brain_games.cli.user_name}!""")
             count = 0
             break
-# prime_game()
