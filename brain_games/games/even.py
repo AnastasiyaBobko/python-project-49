@@ -28,4 +28,6 @@ def even_game():
             print(f"""'{answer}' is wrong answer ;(. Correct answer was {result}. \n
             Let's try again, {brain_games.cli.user_name}!""")
             count = 0
+            break
+
 # even_game()
