@@ -16,7 +16,7 @@ def prime_game():
     count = 0
 
     while count < 3:
-        num = random.randrange(1, 100)
+        num = random.randrange(2, 100)
         IsPrime(num)
         print(f"""Answer "yes" if given number is prime. Otherwise answer "no".
         Question: {num}""")
