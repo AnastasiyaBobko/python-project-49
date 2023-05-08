@@ -17,7 +17,7 @@ def prime_game():
                 d += 1
             return d * d > num
 
-        print(f"""Answer "yes" if given number is prime. Otherwise answer "no".\n
+        print(f"""Answer "yes" if given number is prime. Otherwise answer "no".
         Question: {num}""")
         answer = prompt.string('Your answer: ')
         result = ''
@@ -26,7 +26,12 @@ def prime_game():
         else:
             result = 'no'
 
-        if (IsPrime(num) is True and answer == 'yes') or (IsPrime(num) is False and answer == 'no'):
+        if (IsPrime(num) is True and answer == 'yes'):
+            print("Correct!")
+            count += 1
+            if count == 3:
+                print(f'Congratulations, {brain_games.cli.user_name}!')
+        elif (IsPrime(num) is False and answer == 'no'):
             print("Correct!")
             count += 1
             if count == 3:
