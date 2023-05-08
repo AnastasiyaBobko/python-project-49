@@ -18,7 +18,7 @@ def calc_game():
         elif char == '-':
             result = num1 - num2
         else:
-            result = num1*num2
+            result = num1 * num2
         print(f"""What is the result of the expression?\n
         Question: {num1} {char} {num2}""")
         answer = prompt.integer('Your answer: ')
